@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Quiz sobre carros.</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <p>Pergunta 1: Qual motor é utilizado no Nissan Skyline GT-R R34 ?</p>
+                <label>
+                    <input type="radio" name="q1" value="a"> RB26DETT
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="b"> SR20DET
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="c"> VR38DETT
+                </label><br>
+            </div>
+            <!-- Adicione mais perguntas conforme necessário -->
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
